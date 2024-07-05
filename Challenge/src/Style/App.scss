@@ -1,0 +1,12 @@
+@use './variaveis.scss';
+@use './mixins.scss';
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: variaveis.$font-oficial;
+    box-sizing: border-box;
+}
+
